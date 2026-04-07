@@ -88,6 +88,11 @@ mka recoveryimage
 
 - Bootloader must be unlocked before flashing
 - If flex error occurs, run: export LC_ALL=C before build
+- **Data partition (internal storage) may not mount due to FBE encryption**
+  - To fix: Go to **Wipe** → **Format Data** → type `yes`
+  - ⚠️ This will erase all data in internal storage (photos, downloads, etc.)
+  - SD card is safe and will not be affected
+  - After format, TWRP can access /data normally
 
 ## Credits
 
