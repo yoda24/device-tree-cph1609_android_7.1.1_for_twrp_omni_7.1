@@ -93,6 +93,7 @@ mka recoveryimage
   - ⚠️ This will erase all data in internal storage (photos, downloads, etc.)
   - SD card is safe and will not be affected
   - After format, TWRP can access /data normally
+- For prevent partition /data forcing to encrypt, flashing boot.img is needed. Get boot.img in releases page. https://github.com/yoda24/device-tree-cph1609_android_7.1.1_for_twrp_omni_7.1/releases
 
 ## Credits
 
